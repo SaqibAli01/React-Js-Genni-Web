@@ -1,0 +1,151 @@
+.welcome-para{
+    width: 100%;
+    padding: 5%;
+  }
+  
+  .form-grid {
+      height: auto;
+      background-color: #fd9616;
+      padding-top: 95px;
+      padding-bottom: 80px;
+    
+  }
+  .form-heading, .form-para {
+      text-align: left;
+      color: #fff;
+  }
+  .form-heading {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 3em;
+      padding: 5%;
+  }
+  
+  
+  .form-para {
+      font-size: 16px;
+      padding-top: 15px;
+      padding: 5%;
+  
+  }
+  .form-heading, .form-para {
+      text-align: left;
+      color: #fff;
+  }
+  .form-grid .form-area {
+      height: auto;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 15px;
+  }
+  .form-grid .form-area label {
+      float: left;
+      color: #000;
+      font-weight: 700;
+      font-size: large;
+  }
+  .form-grid .form-area input {
+      border: none;
+      height: 75px;
+      background-color: #ebecf0;
+  }
+  
+  .form-grid{
+      display: flex;
+      justify-content: space-around;
+  }
+  .form-grid .form-area .message-area textarea {
+      background-color: #ebecf0;
+      border-radius: 10px;
+      border: none;
+      color: #fd9616;
+  }
+  textarea.form-control {
+      min-height: calc(1.5em + (0.75rem + 2px));
+  }
+  .form-control {
+      display: block;
+      width: 100%;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border-radius: 0.25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .form-grid .form-area .button-cust button {
+      background-color: #fd9616;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px;
+      font-weight: bolder;
+  }
+   .form-control{
+      color: #fd9616;
+  }
+  
+  .form-area {
+    opacity: 1;
+    transform: none;
+    margin: 5%;
+  }
+  
+  /* animation  */
+  .animationGrid:hover {
+      /* background: orange;
+      width: 250px;
+      height: 250px; */
+      /* border-radius: 10px; */
+      animation: moveToLeft 5s linear infinite;
+      animation-delay: 1000ms;
+    }
+  
+    @keyframes moveToLeft {
+      0% {
+        transform: translateX(0px);
+        /* background: linear-gradient(
+          to right,
+          #ff8177 0%,
+          #ff867a 0%,
+          #ff8c7f 21%,
+          #f99185 52%,
+          #cf556c 78%,
+          #b12a5b 100%
+        ); */
+      }
+      25% {
+        transform: translateX(400px);
+        /* background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+      }
+      50% {
+        /* transform: translateY(200px) translateX(400px); */
+        /* background: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+      }
+  
+      75% {
+        /* transform: translateX(0px) translateY(200px); */
+        /* background: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  
+    .anis{
+      position: relative;
+      animation-name: example;
+      animation-duration: 5s;
+    }
+    
+    @keyframes example {
+    
+      25%  { left:200px; top:0px;}
+      100% { left:0px; top:0px;}
+    }

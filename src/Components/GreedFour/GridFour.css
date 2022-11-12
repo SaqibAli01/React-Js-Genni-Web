@@ -1,0 +1,209 @@
+.welcome-para {
+    text-align: center;
+    /* padding-top: 45px; */
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+.brand-name{
+    letter-spacing: 10%;
+}
+.Apps-para {
+    padding-top: 50px;
+}
+
+/* style card  */
+.GridRow{
+    display: flex;
+    /* justify-content: center; */
+}
+.row-cols-2{
+
+    border: 0 solid #e4e4e7;
+}
+/* .box-sizing: border-box; */
+
+.shadow {
+    transition: box-shadow .3s;
+  
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+    margin: 5%; 
+
+   
+    
+    
+  }
+  .shadow:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+ .imgs{
+    padding: 0px;
+    margin: 0px;
+ }
+.card-title {
+    color: #01a1e8;
+}
+.card-body .card-captions .Services {
+    font-weight: 700;
+    padding-top: 26px;
+}
+@media screen and (max-width: 1023px)
+{
+
+}
+
+.ani:hover{
+    transition: all .5s;
+    transform : translateY(-10px);
+}
+@media only screen and (max-width: 600px) {
+    .reversFlex{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+}
+
+/* media quert  */
+/* Extra small devices (phones, 600px and down) */
+/* 320px — 480px: Mobile devices.  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .Services{
+        /* background-color:#01a1e8; */
+    }
+    .card-image img {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imageCnter{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .imageSize {
+        width: 50%;
+        height: 90%;
+        margin-top: -20px;
+    }
+    .imageCenter{
+        display: flex;
+        justify-content: center;
+        /* margin-bottom: -200px; */
+        align-items: center;
+        height: fit-content;
+    }
+    .reversFlex{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .disFlex{
+       
+            display: flex;
+            justify-content: center;
+            /* height: 83%; */
+            /* background-color: aqua; */
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        
+    }
+    .imgs {
+        width: 30%;
+        padding: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .Services{
+        /* background-color:#ab20a4; */
+    }
+    .imageSize {
+        width: 50%;
+        height: 90%;
+        margin-top: -20px;
+    }
+   .imageCenter {
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+    }
+    .imgs {
+        width: 30%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .newCls{
+        
+            /* background-color: black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin:  0px ;
+        
+    }
+  
+}
+
+
+/* 769px — 1024px: Small screens, laptops.  */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Services{
+        /* background-color:#5bf144; */
+    }
+    .imageSize {
+        width: 50%;
+        height: 90%;
+        margin-top: -20px;
+    }
+   .imageCenter {
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+    }
+    .imgs {
+        width: 30%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .newCls{
+        
+            /* background-color: black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin:  0px ;
+        
+    }
+   
+   
+}

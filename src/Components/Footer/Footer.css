@@ -1,0 +1,36 @@
+.footerimg {
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+.last-intro .company-logo {
+    /* background-color: cornflowerblue; */
+    /* padding-bottom: 40px; */
+    margin: auto;
+    width: 30%;
+}
+.last-intro {
+    padding-top: 40px;
+    padding-bottom: 30px!important;
+    background-color: #f7fcff;
+}
+.last-intro .last-para {
+    text-align: center;
+    padding-top: 40px;
+    font-size: large;
+    font-weight: 500;
+}
+.icon_link{
+    width: 100%;
+}
+.icons_flex{
+    display: flex;
+    justify-content: center;
+}
+.copyright-grid h5 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 2rem;
+}

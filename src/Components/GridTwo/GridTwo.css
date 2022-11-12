@@ -1,0 +1,291 @@
+
+/*  */
+.fancy-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-background{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+    background-color: #fedfb9;
+    margin-top: 10%;
+}
+
+.ImageDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.AppImg{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AppImg:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.app-container .app-decription {
+    color: #000;
+    font-size: 19px;
+    padding-top: 15px !important;
+    text-align: justify;
+    line-height: 35px;
+    /* text-justify: inter-word; */
+    /* background-color: #01a1e8; */
+}
+.app-container .h1 {
+    color: #000;
+    font-size: 1.5em;
+    /* background-color: burlywood; */
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.intro-geniie {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.intro-geniie .decor,
+.intro-geniie .h1 {
+    font-size: 50px;
+    text-align: left;
+    font-weight: 700;
+}
+
+strong {
+    color: #01a1e8;
+
+}
+
+.intro-geniie .decor {
+    color: #01a1e8;
+}
+
+.intro-geniie .para-1 {
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    padding-top: 40px;
+}
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.QrTwo{
+    /* background-color: #01a1e8; */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.QR{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* media quert  */
+/* Extra small devices (phones, 600px and down) */
+/* 320px — 480px: Mobile devices.  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .app-container .app-decription {
+        color: #000;
+        font-size: 14px;
+        text-align: justify;
+        text-justify: inter-word;
+        /* background-color: red; */
+    }
+
+    .app-container .h1 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 700;
+        /* background-color: green; */
+    }
+
+    .fancy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rounded {
+        width: 200px;
+        margin: auto;
+        height: 40%;
+
+    }
+    .image-background{
+        
+    height: 200px;
+    width: 200px;
+    margin-top: 25%;
+
+    }
+
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .app-container .app-decription {
+        color: #000;
+        font-size: 14px;
+        text-align: justify;
+        text-justify: inter-word;
+        /* background-color: green; */
+        width: 100%;
+
+    }
+
+    .app-container .h1 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 700;
+        /* background-color: green; */
+        width: 100%;
+
+
+    }
+
+    .fancy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* background-color: green; */
+
+    }
+
+    .rounded {
+        width: 200px;
+        margin: auto;
+        height: 40%;
+        /* background-color: green; */
+
+
+    }
+    .image-background{
+        
+        height: 200px;
+        width: 200px;
+        margin-top: 25%;
+    
+        }
+
+    .row {
+
+        width: 100%;
+        padding: 3px;
+        margin: 3px;
+    }
+
+}
+
+
+/* 769px — 1024px: Small screens, laptops.  */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .intro-geniie .decor, .intro-geniie .h1 {
+        font-size: 21px;
+        font-weight: 700;
+    }
+    .app-container .app-decription {
+        color: #000;
+        font-size: 14px;
+        padding-top: 3px !important;
+        text-align: justify;
+        line-height: 24px;
+        /* background-color: #01a1e8; */
+        width: 100%;
+    }
+    .image-background{
+        
+        height: 200px;
+        width: 200px;
+        margin-top: 8%;
+    
+        }
+        .AppImg {
+            width: 45%;
+        }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .app-container .h1 {
+     
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 1px;
+        background-color: rgb(0, 179, 255);
+    }
+    .app-container .app-decription {
+        
+        font-size: 15px;
+      
+        
+    }
+
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    .app-container .h1 {
+     
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 1px;
+        background-color: rgb(0, 179, 255);
+    }
+    .app-container .app-decription {
+        
+        font-size: 15px;
+      
+        
+    }
+} */
